@@ -1,6 +1,6 @@
 const Tecnologias = () => {
   return (
-    <section className="contenedor-tecnologias">
+    <section className="contenedor-tecnologias" id="tecnologias">
       <div>
         <h2>Tecnologías con las que desarrollo</h2>
         <ul>

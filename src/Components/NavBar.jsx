@@ -1,18 +1,18 @@
 const NavBar = () => {
   return (
-    <nav>
+    <nav className="navbar">
       <ul>
         <li>
-          <a href="">Inicio</a>
+          <a href="#inicio">Inicio</a>
         </li>
         <li>
-          <a href="">Tecnologías</a>
+          <a href="#tecnologias">Tecnologías</a>
         </li>
         <li>
-          <a href="">Proyectos</a>
+          <a href="#proyectos">Proyectos</a>
         </li>
         <li>
-          <a href="">Contacto</a>
+          <a href="#contacto">Contacto</a>
         </li>
       </ul>
     </nav>

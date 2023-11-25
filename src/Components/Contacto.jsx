@@ -1,6 +1,6 @@
 const Contacto = () => {
   return (
-    <section>
+    <section id="contacto">
       <h2>Podes contactarme en:</h2>
       <div className="redes">
         <ul>

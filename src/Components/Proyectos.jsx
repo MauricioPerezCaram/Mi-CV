@@ -1,6 +1,6 @@
 const Proyectos = () => {
   return (
-    <section>
+    <section id="proyectos">
       <h2>Estos son algunos proyectos en los que he trabajado</h2>
       <div className="container-proyectos">
         <div className="proyecto">
