@@ -6,7 +6,7 @@ const Inicio = () => {
       </div>
       <div className="texto-inicio">
         <h1>
-          Hola! Soy Mauri, Desarrollador Front-End en camino a ser Desarrollador
+          Hola! Soy Mauri, Desarrollador Frontend en camino a ser Desarrollador
           Full Stack
         </h1>
       </div>
