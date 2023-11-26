@@ -6,7 +6,7 @@ const Proyectos = () => {
         <div className="proyecto">
           <img src="/fotocv.png" alt="" />
           <h3>Landing Page</h3>
-          <h4>Estudio Jurídico Pérez Caram & Asociados</h4>
+          <h4> Pérez Caram & Asociados</h4>
           <h5>Tecnologías empleadas:</h5>
           <ul>
             <li>HTML</li>
@@ -27,13 +27,27 @@ const Proyectos = () => {
         </div>
         <div className="proyecto">
           <img src="/fotocv.png" alt="" />
-          <h3>Estudio Jurídico Pérez Caram & Asociados</h3>
-          <h4>Landing page de estudio jurídico</h4>
+          <h3>To Do List</h3>
+          <h4>To do list</h4>
+          <h5>Tecnologías empleadas:</h5>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>REACT</li>
+            <li>FIREBASE</li>
+          </ul>
         </div>
         <div className="proyecto">
           <img src="/fotocv.png" alt="" />
-          <h3>Estudio Jurídico Pérez Caram & Asociados</h3>
-          <h4>Landing page de estudio jurídico</h4>
+          <h3>Finanaces</h3>
+          <h4>To do list</h4>
+          <h5>Tecnologías empleadas:</h5>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>REACT</li>
+            <li>FIREBASE</li>
+          </ul>
         </div>
       </div>
     </section>

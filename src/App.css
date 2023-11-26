@@ -14,7 +14,6 @@
 }
 
 body {
-  background: linear-gradient(to right, #dddbdb, #cec9c9);
   color: #333333;
   font-family: "Roboto", sans-serif;
 }
@@ -82,14 +81,20 @@ img {
 
 .container-proyectos {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 15px;
 }
 
 .proyecto {
-  width: 200px;
+  width: 240px;
   border: solid 1px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.proyecto img {
+  max-width: 100%;
+  height: auto;
 }
 
 .contenedor-tecnologias {
