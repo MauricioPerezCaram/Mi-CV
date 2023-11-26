@@ -5,10 +5,8 @@ const Inicio = () => {
         <img src="/fotocv.png" alt="foto MPC" />
       </div>
       <div className="texto-inicio">
-        <h1>
-          Hola! Soy Mauri, Desarrollador Frontend en camino a ser Desarrollador
-          Full Stack
-        </h1>
+        <h1>Mauricio Pérez Caram, Desarrollador Frontend</h1>
+        <h2>En camino a ser Desarrollador Full Stack</h2>
       </div>
     </section>
   );

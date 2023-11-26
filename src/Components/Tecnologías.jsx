@@ -51,7 +51,7 @@ const Tecnologias = () => {
         <div className="tecnologias">
           <h3>Backend</h3>
           <ul>
-            <li>Aprendiendo</li>
+            <li>En proceso...</li>
           </ul>
         </div>
       </div>

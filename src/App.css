@@ -74,6 +74,7 @@ img {
   width: 100%;
   height: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 10px;
@@ -92,7 +93,7 @@ img {
 }
 
 .contenedor-tecnologias {
-  margin: 20px 0px;
+  margin: 20px 0px 15px 0px;
   display: flex;
   justify-content: space-evenly;
   border: solid 1px;
@@ -101,11 +102,17 @@ img {
 }
 
 .contenedor-tecnologias-aprendiendo {
-  margin: 20px 0px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-evenly;
   border: solid 1px;
   border-radius: 5px;
   padding: 20px 0px;
   align-items: center;
+}
+
+.sobremi {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
