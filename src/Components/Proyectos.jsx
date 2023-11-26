@@ -39,7 +39,7 @@ const Proyectos = () => {
         </div>
         <div className="proyecto">
           <img src="/fotocv.png" alt="" />
-          <h3>Finanaces</h3>
+          <h3>Finances</h3>
           <h4>To do list</h4>
           <h5>Tecnologías empleadas:</h5>
           <ul>
