@@ -121,3 +121,20 @@ img {
   flex-direction: column;
   gap: 5px;
 }
+
+.redes {
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  color: #333333;
+}
+
+button:hover {
+  cursor: pointer;
+}

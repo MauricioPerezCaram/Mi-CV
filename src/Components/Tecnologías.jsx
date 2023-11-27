@@ -9,11 +9,9 @@ const Tecnologias = () => {
             <li>HTML</li>
             <li>CSS</li>
             <li>Flexbox</li>
-            <li>Grids</li>
             <li>Bootstrap</li>
             <li>Git</li>
             <li>GitHub</li>
-            <li>SASS</li>
             <li>SCSS</li>
             <li>SEO</li>
           </ul>
@@ -22,8 +20,7 @@ const Tecnologias = () => {
           <h3>Javascript</h3>
           <ul>
             <li>Funciones</li>
-            <li>Objetos</li>
-            <li>Array</li>
+
             <li>Dom</li>
             <li>Evetos</li>
             <li>Storage y JSON</li>
@@ -31,14 +28,12 @@ const Tecnologias = () => {
             <li>Asincronía y Promesas</li>
             <li>Ajax & Fetch</li>
             <li>Frameworks</li>
-            <li>NodeJS</li>
           </ul>
         </div>
         <div className="tecnologias">
           <h3>ReactJS</h3>
           <ul>
             <li>JSX</li>
-            <li>Componentes</li>
             <li>Promises, Asincronía y Map</li>
             <li>API</li>
             <li>Hooks, Children y Patrones</li>
