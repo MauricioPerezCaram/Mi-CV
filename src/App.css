@@ -16,10 +16,11 @@
 body {
   color: #333333;
   font-family: "Roboto", sans-serif;
-  background-image: url(/public/fondo.jpg);
+  background-image: url(/public/wallpaperbetter.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
 }
 
 .navbar {
@@ -135,8 +136,9 @@ img {
 button {
   padding: 10px 15px;
   border-radius: 5px;
-  background-color: antiquewhite;
+  background: linear-gradient(to right, #f0f0f0, #f1ecec);
   color: #333333;
+  font-size: 15px;
 }
 
 button:hover {
