@@ -16,11 +16,8 @@
 body {
   color: #333333;
   font-family: "Roboto", sans-serif;
-  background-image: url(/public/wallpaperbetter.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 
+  background: linear-gradient(135deg, hsla(0, 0%, 100%, 1) 0%, hsla(204, 17%, 83%, 1) 100%);  
 }
 
 .navbar {
