@@ -16,6 +16,10 @@
 body {
   color: #333333;
   font-family: "Roboto", sans-serif;
+  background-image: url(/public/fondo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .navbar {
@@ -48,7 +52,7 @@ ul {
 }
 
 .navbar a:hover {
-  color: antiquewhite;
+  color: rgb(241, 241, 241);
 }
 
 .contenedor-inicio {
