@@ -105,6 +105,10 @@ img {
   border-radius: 5px;
 }
 
+.proyecto:hover {
+  cursor: pointer;
+}
+
 .tecnologias-completas {
   border-top: solid 2px;
 }

@@ -55,13 +55,8 @@ const Tecnologias = () => {
       <h2>Tecnologías aprendiendo</h2>
       <div className="logostecnologías">
         <img src="mongodb.png" alt="mongodb" />
-        <img src="Typescript_logo_2020.svg.png" alt="mongodb" />
-
         <img src="1920px-Node.js_logo.svg.png" alt="nodejs" />
-        <img
-          src="AwcMggxFR7LsNEXNz85rvYxmGZ8cZWGbIgXnl-vQ8LE.webp"
-          alt="html"
-        />
+        <img src="Typescript_logo_2020.svg.png" alt="mongodb" />
       </div>
       <div className="contenedor-tecnologias">
         <ul>

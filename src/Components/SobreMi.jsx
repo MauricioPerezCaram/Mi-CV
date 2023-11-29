@@ -3,7 +3,7 @@ const SobreMi = () => {
     <section id="sobremi" className="sobremi">
       <h2>Sobre mi</h2>
       <h3>
-        Hola soy Mauri! Tengo interés en la programación y tecnología, es por
+        Hola soy Mauri! Me encanta el desarrollo de software, la programación y tecnología, es por
         eso que me encuentro cursando la carrera de desarrollador Full Stack.
       </h3>
       <h3>
