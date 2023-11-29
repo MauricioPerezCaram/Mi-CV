@@ -9,8 +9,8 @@ const Proyectos = () => {
   }
 
   return (
-    <section id="proyectos">
-      <h2 className="h2proyectos">Proyectos en los que he trabajado</h2>
+    <section id="proyectos" >
+      <h2 className="proyectos">Proyectos en los que he trabajado</h2>
       <div className="container-proyectos">
         <div className="proyecto" onClick={abrirpaginaestudio}>
           <img src="Estudio Jco. PC & Asoc.png" alt="Estudio Jco. PC & Asoc" />

@@ -25,7 +25,7 @@ body {
 }
 
 .navbar {
-  margin-top: 25px;
+  margin-top: 20px;
   font-size: 25px;
 }
 
@@ -89,8 +89,13 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 15px;
+  margin-top: 15px;
   gap: 25px;
+}
+
+.proyectos {
+  margin-top: -25px;
+  margin-bottom: 20px;
 }
 
 .proyecto {
@@ -114,7 +119,7 @@ img {
 }
 
 .contenedor-tecnologias {
-  margin: 20px 0px 15px 0px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-evenly;
   border-bottom: solid 2px;
@@ -139,8 +144,7 @@ img {
 }
 
 .redes {
-  margin: 40px;
-
+  margin: 20px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -179,4 +183,9 @@ h2 {
 
 .contacto {
   border-top: solid 2px;
+  margin-bottom: 30px;
+}
+
+.contacto h2 {
+  margin-top: 15px;
 }
