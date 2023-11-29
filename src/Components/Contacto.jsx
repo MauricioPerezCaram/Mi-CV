@@ -9,7 +9,7 @@ const Contacto = () => {
 
   return (
     <section id="contacto">
-      <h2>Podes contactarme en:</h2>
+      <h2 className="contacto">Podes contactarme en:</h2>
       <div className="redes">
         <button onClick={visitarLinkedin}>Visita mi LinkedIn</button>
         <button onClick={visitarGitHub}>Visita mi GitHub</button>
