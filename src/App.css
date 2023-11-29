@@ -105,29 +105,15 @@ img {
   border-radius: 5px;
 }
 
-/* .proyecto {
-  width: 240px;
-  border: solid 1px;
-  border-radius: 5px;
-  padding: 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
+.tecnologias-completas {
+  border-top: solid 2px;
 }
-
-.proyecto img {
-  width: 100%;
-  height: 60%; 
-  object-fit: cover; 
-  border-radius: 5px;
-} */
 
 .contenedor-tecnologias {
   margin: 20px 0px 15px 0px;
   display: flex;
   justify-content: space-evenly;
-  border: solid 1px;
-  border-radius: 5px;
+  border-bottom: solid 2px;
   padding: 20px 0px;
 }
 
@@ -145,6 +131,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  border-top: solid 2px;
 }
 
 .redes {
@@ -169,4 +156,23 @@ button:hover {
 h2 {
   display: flex;
   justify-content: center;
+}
+
+.logostecnologías {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logostecnologías img {
+  width: 60px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.tecnologias-desarrollo {
+  margin-top: 15px;
+}
+
+.contacto {
+  border-top: solid 2px;
 }

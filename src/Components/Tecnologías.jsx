@@ -1,9 +1,17 @@
 const Tecnologias = () => {
   return (
-    <div>
-      <h2>Tecnologías con las que desarrollo</h2>
+    <div className="tecnologias-completas">
+      <h2 className="tecnologias-desarrollo">
+        Tecnologías con las que desarrollo
+      </h2>
+      <div className="logostecnologías">
+        <img src="js.png" alt="html" />
+        <img src="CSS3_logo.svg.png" alt="html" />
+        <img src="JavaScript-logo.png" alt="html" />
+        <img src="react-1-logo-png-transparent.png" alt="html" />
+      </div>
       <div className="contenedor-tecnologias" id="tecnologias">
-        <div className="tecnologias">
+        <div>
           <h3>Desarrollo Web</h3>
           <ul>
             <li>HTML</li>
@@ -16,7 +24,7 @@ const Tecnologias = () => {
             <li>SEO</li>
           </ul>
         </div>
-        <div className="tecnologias">
+        <div>
           <h3>Javascript</h3>
           <ul>
             <li>Funciones</li>
@@ -30,7 +38,7 @@ const Tecnologias = () => {
             <li>Frameworks</li>
           </ul>
         </div>
-        <div className="tecnologias">
+        <div>
           <h3>ReactJS</h3>
           <ul>
             <li>JSX</li>
@@ -43,15 +51,19 @@ const Tecnologias = () => {
             <li>Firebase</li>
           </ul>
         </div>
-        <div className="tecnologias">
-          <h3>Backend</h3>
-          <ul>
-            <li>En proceso...</li>
-          </ul>
-        </div>
       </div>
-      <div className="contenedor-tecnologias-aprendiendo">
-        <h2>Tecnologías próximas a aprender:</h2>
+      <h2>Tecnologías aprendiendo</h2>
+      <div className="logostecnologías">
+        <img src="mongodb.png" alt="mongodb" />
+        <img src="Typescript_logo_2020.svg.png" alt="mongodb" />
+
+        <img src="1920px-Node.js_logo.svg.png" alt="nodejs" />
+        <img
+          src="AwcMggxFR7LsNEXNz85rvYxmGZ8cZWGbIgXnl-vQ8LE.webp"
+          alt="html"
+        />
+      </div>
+      <div className="contenedor-tecnologias">
         <ul>
           <li>BACKEND</li>
         </ul>
