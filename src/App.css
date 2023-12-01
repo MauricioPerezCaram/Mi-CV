@@ -154,7 +154,7 @@ img {
 .redes {
   margin: 20px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 button {
@@ -196,4 +196,14 @@ h2 {
 
 .contacto h2 {
   margin-top: 15px;
+}
+
+.mail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mail img {
+  width: 100px;
 }
