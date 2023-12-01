@@ -51,17 +51,6 @@ const Proyectos = () => {
             <li>SASS</li>
           </ul>
         </div>
-        <div className="proyecto" onClick={abrirpaginaestudio}>
-          <img src="Estudio Jco. PC & Asoc.png" alt="Estudio Jco. PC & Asoc" />
-          <h3>Landing Page</h3>
-          <h4>Pérez Caram & Asociados</h4>
-          <h5>Tecnologías empleadas:</h5>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>SASS</li>
-          </ul>
-        </div>
       </div>
     </section>
   );
