@@ -94,19 +94,11 @@ img {
   gap: 25px;
 }
 
-.proyectos {
-  margin-top: -25px;
-  margin-bottom: 20px;
-}
-
 .proyecto {
   width: 420px;
-  border: solid 1px;
+  border: 1px solid #ddd;
   border-radius: 5px;
-  padding: 4px;
-  position: relative;
   overflow: hidden;
-  z-index: 1;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -118,7 +110,7 @@ img {
 .proyecto:hover {
   cursor: pointer;
   transform: scale(1.1);
-  z-index: 2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Agregar sombra al hacer hover */
 }
 
 .tecnologias-completas {
@@ -149,12 +141,6 @@ img {
   gap: 5px;
   border-top: solid 2px;
   font-size: 20px;
-}
-
-.redes {
-  margin: 20px;
-  display: flex;
-  justify-content: space-evenly;
 }
 
 button {
@@ -207,4 +193,25 @@ h2 {
 .mail img {
   width: 60px;
   padding: 10px;
+}
+
+.redes {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.redes button {
+  padding: 10px 15px;
+  font-size: 1em;
+  color: #333333;
+  border: none;
+  border-radius: 5px;
+}
+
+.mail p {
+  margin-left: 10px;
+  font-size: 1em;
+  color: #333333;
 }
