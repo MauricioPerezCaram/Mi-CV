@@ -83,6 +83,7 @@ img {
   justify-content: center;
   align-items: center;
   padding: 10px;
+  font-size: 20px;
 }
 
 .container-proyectos {
@@ -103,6 +104,10 @@ img {
   border: solid 1px;
   border-radius: 5px;
   padding: 4px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: transform 0.3s ease-in-out;
 }
 
 .proyecto img {
@@ -112,6 +117,8 @@ img {
 
 .proyecto:hover {
   cursor: pointer;
+  transform: scale(1.1);
+  z-index: 2;
 }
 
 .tecnologias-completas {
@@ -141,6 +148,7 @@ img {
   flex-direction: column;
   gap: 5px;
   border-top: solid 2px;
+  font-size: 20px;
 }
 
 .redes {
