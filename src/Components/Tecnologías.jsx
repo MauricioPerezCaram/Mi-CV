@@ -27,10 +27,9 @@ const Tecnologias = () => {
         <div>
           <h3>Javascript</h3>
           <ul>
-            <li>Funciones</li>
-
+            <li>Function</li>
             <li>Dom</li>
-            <li>Evetos</li>
+            <li>Events</li>
             <li>Storage y JSON</li>
             <li>Librerías</li>
             <li>Asincronía y Promesas</li>
@@ -46,7 +45,7 @@ const Tecnologias = () => {
             <li>API</li>
             <li>Hooks, Children y Patrones</li>
             <li>Routing y navegación</li>
-            <li>Eventos</li>
+            <li>Events</li>
             <li>Context</li>
             <li>Firebase</li>
           </ul>

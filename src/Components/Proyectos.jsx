@@ -14,6 +14,10 @@ const Proyectos = () => {
     window.open("https://to-do-app-one-omega.vercel.app/");
   };
 
+  const abrirweather = () => {
+    window.open("https://weather-app-phi-hazel.vercel.app/");
+  };
+
   return (
     <section id="proyectos">
       <h2 className="proyectos">Proyectos en los que he trabajado</h2>
@@ -28,6 +32,16 @@ const Proyectos = () => {
             <li>CSS</li>
             <li>REACT</li>
             <li>FIREBASE</li>
+          </ul>
+        </div>
+        <div className="proyecto" onClick={abrirweather}>
+          <img src="weatherapp.png" alt="Apple Store Mendoza" />
+          <h3>Weather App</h3>
+          <h4>Aplicación del clima</h4>
+          <h5>Tecnologías empleadas:</h5>
+          <ul>
+            <li>REACT</li>
+            <li>Weather API</li>
           </ul>
         </div>
         <div className="proyecto" onClick={abrirtodoapp}>
