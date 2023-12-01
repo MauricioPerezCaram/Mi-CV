@@ -1,9 +1,15 @@
+import { useTranslation } from "react-i18next";
+
 const NavBar = () => {
+  const [t, i18n] = useTranslation("global");
+
   return (
     <nav className="navbar">
+      <button onClick={() => i18n.changeLanguage("es")}>ES</button>
+      <button onClick={() => i18n.changeLanguage("en")}>EN</button>
       <ul>
         <li>
-          <a href="#inicio">Inicio</a>
+          <a href="#inicio">{t("navbar.inicio")}</a>
         </li>
         <li>
           <a href="#tecnologias">Tecnologías</a>
