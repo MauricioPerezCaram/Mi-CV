@@ -11,6 +11,7 @@
   gap: 30px;
   width: 1000px;
   margin: 0 auto;
+  width: 60%; /* Cambiado a porcentaje */
 }
 
 body {
@@ -57,6 +58,18 @@ ul {
   color: rgb(241, 241, 241);
 }
 
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar li {
+    padding: 10px;
+  }
+}
+
 .contenedor-inicio {
   display: flex;
   height: 200px;
@@ -64,7 +77,7 @@ ul {
 }
 
 .logo-inicio {
-  width: 30%;
+  width: 40%;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -100,6 +113,7 @@ img {
   border-radius: 5px;
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
+  width: 45%;
 }
 
 .proyecto img {
@@ -166,9 +180,9 @@ h2 {
 }
 
 .logostecnologías img {
-  width: 60px;
   margin-top: 20px;
   border-radius: 10px;
+  width: 8%;
 }
 
 .tecnologias-desarrollo {
@@ -214,4 +228,32 @@ h2 {
   margin-left: 10px;
   font-size: 1em;
   color: #333333;
+}
+
+@media screen and (max-width: 1000px) {
+  .App {
+    width: 90%; /* Ajusta el ancho para pantallas más pequeñas */
+  }
+
+  .logo-inicio {
+    width: 70%; /* Ajusta el ancho del logo en pantallas más pequeñas */
+  }
+
+  .proyecto {
+    width: 90%; /* Ajusta el ancho de los proyectos en pantallas más pequeñas */
+  }
+
+  .contenedor-inicio {
+    flex-direction: column; /* Cambiado a columna en pantallas más pequeñas */
+    height: auto; /* Altura automática en pantallas más pequeñas */
+  }
+
+  .texto-inicio {
+    padding: 5px; /* Reducido el relleno en pantallas más pequeñas */
+  }
+
+  .container-proyectos {
+    justify-content: center; /* Centrar proyectos en pantallas más pequeñas */
+    gap: 10px; /* Reducido el espacio entre proyectos */
+  }
 }

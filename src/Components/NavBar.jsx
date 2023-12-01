@@ -5,7 +5,6 @@ const NavBar = () => {
         <li>
           <a href="#inicio">Inicio</a>
         </li>
-
         <li>
           <a href="#tecnologias">Tecnologías</a>
         </li>
