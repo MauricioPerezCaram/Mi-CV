@@ -59,14 +59,18 @@ ul {
 }
 
 /* Media query para pantallas más pequeñas */
-@media (max-width: 768px) {
+@media (max-width: 688px) {
   .navbar ul {
     flex-direction: column;
     align-items: center;
   }
 
   .navbar li {
-    padding: 10px;
+    padding: 3px;
+  }
+
+  .texto-inicio {
+    text-align: center;
   }
 }
 
