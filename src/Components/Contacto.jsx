@@ -12,11 +12,11 @@ const Contacto = () => {
       <h2>Podes contactarme en</h2>
       <div className="redes">
         <button onClick={visitarLinkedin}>Visita mi LinkedIn</button>
+        <div className="mail">
+          <img src="mail.png" alt="" />
+          <p>perezcarammauricio@gmail.com</p>
+        </div>
         <button onClick={visitarGitHub}>Visita mi GitHub</button>
-      </div>
-      <div className="mail">
-        <img src="mail.png" alt="" />
-        <p>perezcarammauricio@gmail.com</p>
       </div>
     </section>
   );

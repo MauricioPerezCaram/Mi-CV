@@ -154,11 +154,11 @@ img {
 .redes {
   margin: 20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 button {
-  padding: 10px 15px;
+  padding: 5px 15px;
   border-radius: 5px;
   background: linear-gradient(to right, #f0f0f0, #f1ecec);
   color: #333333;
@@ -205,5 +205,6 @@ h2 {
 }
 
 .mail img {
-  width: 100px;
+  width: 60px;
+  padding: 10px;
 }
