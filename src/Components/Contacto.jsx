@@ -1,4 +1,8 @@
+import { useTranslation } from "react-i18next";
+
 const Contacto = () => {
+  const [t, i18n] = useTranslation("global");
+
   const visitarLinkedin = () => {
     window.open("https://www.linkedin.com/in/mauricioperezcaram/", "_blank");
   };
@@ -9,14 +13,14 @@ const Contacto = () => {
 
   return (
     <section id="contacto" className="contacto">
-      <h2>Podes contactarme en</h2>
+      <h2>{t("contactame.contactame")}</h2>
       <div className="redes">
-        <button onClick={visitarLinkedin}>Visita mi LinkedIn</button>
+        <button onClick={visitarLinkedin}>{t("contactame.linkedin")}</button>
         <div className="mail">
           <img src="mail.png" alt="" />
           <p>perezcarammauricio@gmail.com</p>
         </div>
-        <button onClick={visitarGitHub}>Visita mi GitHub</button>
+        <button onClick={visitarGitHub}>{t("contactame.github")}</button>
       </div>
     </section>
   );

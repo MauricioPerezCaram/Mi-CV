@@ -29,5 +29,11 @@
     "p1": "Hi, I'm Mauri! I have a passion for software development, coding, and technologies, which is why I embarked on a career as a Full-stack Developer.",
     "p2": "I have learned web development by applying HTML and CSS. Later, I began studying JavaScript, where I managed to add functionality and interaction to my projects. To complete Frontend Development, I studied React, where I learned component-based programming.",
     "p3": "Today, with a strong desire to continue learning, I am studying Backend development, where I learn server-side programming day by day."
+  },
+
+  "contactame": {
+    "contactame": "Contact me",
+    "linkedin": "Click to LinkedIn",
+    "github": "Click to my GitHub"
   }
 }
