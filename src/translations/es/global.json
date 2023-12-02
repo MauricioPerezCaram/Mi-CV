@@ -1,15 +1,16 @@
 {
   "navbar": {
     "inicio": "Inicio",
-    "tecnologias": "Tecnologias",
+    "tecnologias": "Tecnologías",
     "proyectos": "Proyectos",
     "sobremi": "Sobre mi",
     "contacto": "Contacto"
   },
 
   "inicio": {
-    "h1": "Mauricio Pérez Caram, Desarrollador Frontend",
-    "h2": "Proximanete Desarrollador Full Stack"
+    "h1": "Mauricio Perez Caram",
+    "h2": "Proximamente Desarrollador Full Stack",
+    "h3": "Desarrollador Frontend"
   },
 
   "tecnologias": {
@@ -25,8 +26,8 @@
 
   "sobremi": {
     "titulo": "Sobre mi",
-    "p1": "Hola soy Mauri! Me encanta el desarrollo de software, la programación y tecnología, es por eso que me encuentro cursando la carrera de desarrollador Full Stack.",
-    "p2": "He aprendido Desarrollo Web aplicando HTML y CSS. Luego comencé a estudiar Javascript donde logré darle funcionalidad e interacción a mis proyectos. Para completar Desarrollo Frontend estudié React donde aprendí la programación a base a componentes.",
-    "p3": "Hoy con muchas ganas de seguir aprendiendo me encuentro estudiando Backend donde aprendo día a día la programación del lado del servidor."
+    "p1": "¡Hola, soy Mauri! Tengo una pasión por el desarrollo de software, la programación y las tecnologías, por eso decidí embarcarme en una carrera como Desarrollador Full-stack.",
+    "p2": "He aprendido desarrollo web aplicando HTML y CSS. Más tarde, comencé a estudiar JavaScript, donde logré agregarle funcionalidad e interacción a mis proyectos. Para completar el desarrollo Frontend, estudié React, donde aprendí programación basada en componentes.",
+    "p3": "Hoy, con muchas ganas de seguir aprendiendo, estoy estudiando desarrollo Backend, donde día a día aprendo programación desde el lado del servidor."
   }
 }

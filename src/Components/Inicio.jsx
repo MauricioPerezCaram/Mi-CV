@@ -10,7 +10,8 @@ const Inicio = () => {
       </div>
       <div className="texto-inicio">
         <h1>{t("inicio.h1")}</h1>
-        <h3>{t("inicio.h2")}</h3>
+        <h3>{t("inicio.h3")}</h3>
+        <h4>{t("inicio.h2")}</h4>
       </div>
     </section>
   );

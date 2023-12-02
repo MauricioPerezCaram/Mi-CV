@@ -8,8 +8,9 @@
   },
 
   "inicio": {
-    "h1": "Mauricio Pérez Caram, Frontend Developer",
-    "h2": "Full Stack Developer soon"
+    "h1": "Mauricio Perez Caram",
+    "h2": "Full Stack Developer soon",
+    "h3": "Frontend Developer"
   },
 
   "tecnologias": {
@@ -24,9 +25,9 @@
   },
 
   "sobremi": {
-    "titulo": "Sobre mi",
-    "p1": "aaaaaaaaaalo de software, la programación y tecnología, es por eso que me encuentro cursando la carrera de desarrollador Full Stack.",
-    "p2": "bbbbbbbb aplicando HTML y CSS. Luego comencé a estudiar Javascript donde logré darle funcionalidad e interacción a mis proyectos. Para completar Desarrollo Frontend estudié React donde aprendí la programación a base a componentes.",
-    "p3": "cccccccceguir aprendiendo me encuentro estudiando Backend donde aprendo día a día la programación del lado del servidor."
+    "titulo": "About me",
+    "p1": "Hi, I'm Mauri! I have a passion for software development, coding, and technologies, which is why I embarked on a career as a Full-stack Developer.",
+    "p2": "I have learned web development by applying HTML and CSS. Later, I began studying JavaScript, where I managed to add functionality and interaction to my projects. To complete Frontend Development, I studied React, where I learned component-based programming.",
+    "p3": "Today, with a strong desire to continue learning, I am studying Backend development, where I learn server-side programming day by day."
   }
 }

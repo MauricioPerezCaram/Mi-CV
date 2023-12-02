@@ -68,10 +68,6 @@ ul {
   .navbar li {
     padding: 3px;
   }
-
-  .texto-inicio {
-    text-align: center;
-  }
 }
 
 .contenedor-inicio {
@@ -81,7 +77,7 @@ ul {
 }
 
 .logo-inicio {
-  width: 40%;
+  width: 30%;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -89,7 +85,7 @@ ul {
 }
 
 img {
-  width: 200px;
+  width: 180px;
 }
 
 .texto-inicio {
@@ -99,7 +95,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  gap: 12px;
   font-size: 20px;
 }
 
