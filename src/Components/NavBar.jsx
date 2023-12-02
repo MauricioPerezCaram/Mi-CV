@@ -5,24 +5,24 @@ const NavBar = () => {
 
   return (
     <nav className="navbar">
-      <button onClick={() => i18n.changeLanguage("es")}>ES</button>
-      <button onClick={() => i18n.changeLanguage("en")}>EN</button>
       <ul>
         <li>
           <a href="#inicio">{t("navbar.inicio")}</a>
         </li>
         <li>
-          <a href="#tecnologias">Tecnologías</a>
+          <a href="#tecnologias">{t("navbar.tecnologias")}</a>
         </li>
         <li>
-          <a href="#proyectos">Proyectos</a>
+          <a href="#proyectos">{t("navbar.proyectos")}</a>
         </li>
         <li>
-          <a href="#sobremi">Sobre mi</a>
+          <a href="#sobremi">{t("navbar.sobremi")}</a>
         </li>
         <li>
-          <a href="#contacto">Contacto</a>
+          <a href="#contacto">{t("navbar.contacto")}</a>
         </li>
+        <button onClick={() => i18n.changeLanguage("es")}>ES</button>
+        <button onClick={() => i18n.changeLanguage("en")}>EN</button>
       </ul>
     </nav>
   );

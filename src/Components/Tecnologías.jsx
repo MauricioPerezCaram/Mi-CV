@@ -1,9 +1,11 @@
+import { useTranslation } from "react-i18next";
+
 const Tecnologias = () => {
+  const [t, i18n] = useTranslation("global");
+
   return (
     <div className="tecnologias-completas">
-      <h2 className="tecnologias-desarrollo">
-        Tecnologías con las que desarrollo
-      </h2>
+      <h2 className="tecnologias-desarrollo">{t("tecnologias.h2")}</h2>
       <div className="logostecnologías">
         <img src="js.png" alt="html" />
         <img src="CSS3_logo.svg.png" alt="html" />
@@ -12,15 +14,15 @@ const Tecnologias = () => {
       </div>
       <div className="contenedor-tecnologias" id="tecnologias">
         <div>
-          <h3>Desarrollo Web</h3>
+          <h3>{t("tecnologias.dw")}</h3>
           <ul>
             <li>HTML</li>
             <li>CSS</li>
             <li>Flexbox</li>
+            <li>Grids</li>
             <li>Bootstrap</li>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>SCSS</li>
+
+            <li>SASS</li>
             <li>SEO</li>
           </ul>
         </div>
@@ -31,8 +33,7 @@ const Tecnologias = () => {
             <li>Dom</li>
             <li>Events</li>
             <li>Storage y JSON</li>
-            <li>Librerías</li>
-            <li>Asincronía y Promesas</li>
+            <li>Promises y Async</li>
             <li>Ajax & Fetch</li>
             <li>Frameworks</li>
           </ul>
@@ -45,13 +46,12 @@ const Tecnologias = () => {
             <li>API</li>
             <li>Hooks, Children y Patrones</li>
             <li>Routing y navegación</li>
-            <li>Events</li>
             <li>Context</li>
             <li>Firebase</li>
           </ul>
         </div>
       </div>
-      <h2>Tecnologías aprendiendo</h2>
+      <h2>{t("tecnologias.aprendiendo")}</h2>
       <div className="logostecnologías">
         <img src="mongodb.jpg" alt="mongodb" />
         <img src="1920px-Node.js_logo.svg.png" alt="nodejs" />

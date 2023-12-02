@@ -1,3 +1,5 @@
+import { useTranslation } from "react-i18next";
+
 const Proyectos = () => {
   const abrirpaginaestudio = () => {
     window.open(
@@ -17,16 +19,17 @@ const Proyectos = () => {
   const abrirweather = () => {
     window.open("https://weather-app-phi-hazel.vercel.app/");
   };
+  const [t, i18n] = useTranslation("global");
 
   return (
     <section id="proyectos">
-      <h2 className="proyectos">Proyectos en los que he trabajado</h2>
+      <h2 className="proyectos">{t("proyectos.trabajado")}</h2>
       <div className="container-proyectos">
         <div className="proyecto" onClick={abrirapplestore}>
           <img src="Apple Store Mendoza.png" alt="Apple Store Mendoza" />
           <h3>E-commerce</h3>
           <h4>Apple Store Mendoza</h4>
-          <h5>Tecnologías empleadas:</h5>
+          <h5>{t("proyectos.templeadas")}</h5>
           <ul>
             <li>HTML</li>
             <li>CSS</li>
@@ -38,7 +41,7 @@ const Proyectos = () => {
           <img src="weatherapp.png" alt="Apple Store Mendoza" />
           <h3>Weather App</h3>
           <h4>Aplicación del clima</h4>
-          <h5>Tecnologías empleadas:</h5>
+          <h5>{t("proyectos.templeadas")}</h5>
           <ul>
             <li>REACT</li>
             <li>Weather API</li>
@@ -47,7 +50,7 @@ const Proyectos = () => {
         <div className="proyecto" onClick={abrirtodoapp}>
           <img src="to do app.png" alt="to do app" />
           <h3>To Do App</h3>
-          <h5>Tecnologías empleadas:</h5>
+          <h5>{t("proyectos.templeadas")}</h5>
           <ul>
             <li>HTML</li>
             <li>CSS</li>
@@ -58,7 +61,7 @@ const Proyectos = () => {
           <img src="Estudio Jco. PC & Asoc.png" alt="Estudio Jco. PC & Asoc" />
           <h3>Landing Page</h3>
           <h4>Pérez Caram & Asociados</h4>
-          <h5>Tecnologías empleadas:</h5>
+          <h5>{t("proyectos.templeadas")}</h5>
           <ul>
             <li>HTML</li>
             <li>CSS</li>
