@@ -6,7 +6,7 @@ const Inicio = () => {
   return (
     <section className="contenedor-inicio" id="inicio">
       <div className="logo-inicio">
-        <img src="/ss.png" alt="foto MPC" />
+        <img src="/cs.png" alt="foto MPC" />
       </div>
       <div className="texto-inicio">
         <h1>{t("inicio.h1")}</h1>
