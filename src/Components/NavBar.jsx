@@ -21,8 +21,11 @@ const NavBar = () => {
         <li>
           <a href="#contacto">{t("navbar.contacto")}</a>
         </li>
-        <button onClick={() => i18n.changeLanguage("es")}>ES</button>
-        <button onClick={() => i18n.changeLanguage("en")}>EN</button>
+        <div className="banderitas">
+          <img src="es.png" onClick={() => i18n.changeLanguage("es")} />
+
+          <img src="gb.png" onClick={() => i18n.changeLanguage("en")} />
+        </div>
       </ul>
     </nav>
   );

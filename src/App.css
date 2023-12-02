@@ -165,6 +165,23 @@ button {
   font-size: 15px;
 }
 
+.banderitas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+}
+
+.banderitas img {
+  width: 30px;
+  height: 20px;
+}
+
+.banderitas img:hover {
+  cursor: pointer;
+}
+
 button:hover {
   cursor: pointer;
 }
