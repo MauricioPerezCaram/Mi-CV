@@ -44,7 +44,8 @@ const Proyectos = () => {
           <h5>{t("proyectos.templeadas")}</h5>
           <ul>
             <li>REACT</li>
-            <li>Weather API</li>
+            <li>API</li>
+            <li>CSS</li>
           </ul>
         </div>
         <div className="proyecto" onClick={abrirtodoapp}>
