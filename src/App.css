@@ -136,11 +136,15 @@ img {
 .proyecto:hover {
   cursor: pointer;
   transform: scale(1.1);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Agregar sombra al hacer hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .tecnologias-completas {
   border-top: solid 2px;
+}
+
+.proyectos {
+  text-align: center;
 }
 
 .contenedor-tecnologias {
@@ -216,6 +220,7 @@ h2 {
 
 .tecnologias-desarrollo {
   margin-top: 15px;
+  text-align: center;
 }
 
 .contacto {
@@ -261,11 +266,11 @@ h2 {
 
 @media screen and (max-width: 1000px) {
   .App {
-    width: 90%; /* Ajusta el ancho para pantallas más pequeñas */
+    width: 90%;
   }
 
   .logo-inicio {
-    width: 70%; /* Ajusta el ancho del logo en pantallas más pequeñas */
+    width: 70%;
   }
 
   .proyecto {
@@ -273,16 +278,16 @@ h2 {
   }
 
   .contenedor-inicio {
-    flex-direction: column; /* Cambiado a columna en pantallas más pequeñas */
-    height: auto; /* Altura automática en pantallas más pequeñas */
+    flex-direction: column;
+    height: auto;
   }
 
   .texto-inicio {
-    padding: 5px; /* Reducido el relleno en pantallas más pequeñas */
+    padding: 5px;
   }
 
   .container-proyectos {
-    justify-content: center; /* Centrar proyectos en pantallas más pequeñas */
-    gap: 10px; /* Reducido el espacio entre proyectos */
+    justify-content: center;
+    gap: 10px;
   }
 }
